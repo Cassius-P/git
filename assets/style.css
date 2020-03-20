@@ -1,0 +1,42 @@
+main{
+    width:100vw;
+    height:100%;
+    background-color:black;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    margin: 0;
+    padding:0;
+    height: 100vh;
+}
+.lines{
+    margin:0;
+    padding:0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+}
+.count{
+    font-size: 6em;
+}
+@media only screen and (max-width:800px) {
+    main{
+        height: 100%;
+    }
+    .lines{
+        width: 80%;
+        padding: 0 10%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 4.5em;
+    }
+    .count{
+        font-size: 6.2em;
+    }
+}
