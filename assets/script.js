@@ -3,7 +3,7 @@ window.onload = function() {
 };
 
 function countdown(){
-    var countDownDate = new Date("Mar 20, 2020 15:10:00").getTime();
+    var countDownDate = new Date("Mar 20, 2020 15:08:00").getTime();
 
 // Update the count down every 1 second
     var x = setInterval(function() {
