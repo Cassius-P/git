@@ -54,6 +54,6 @@ function itsTime() {
         if(i < 4) {
             i++
         }
-    },6000)
+    },1000)
 }
 
